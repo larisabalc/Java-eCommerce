@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c7723ac-ef3d-49fc-b47a-a600285c3af7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IM2jCwYqvl468VzLwwtQEYtk02" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/larisabalc/MicrosoftJDBC11/sqljdbc_11.2/enu/mssql-jdbc-11.2.0.jre8.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c7723ac-ef3d-49fc-b47a-a600285c3af7" name="Changes" comment="" />
+      <created>1669977267067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669977267067</updated>
+      <workItem from="1669977268702" duration="2883000" />
+      <workItem from="1669980286475" duration="15000" />
+      <workItem from="1670008793133" duration="171000" />
+      <workItem from="1670009024370" duration="4039000" />
+      <workItem from="1670013510812" duration="2728000" />
+      <workItem from="1670016319396" duration="674000" />
+      <workItem from="1670020631842" duration="488000" />
+      <workItem from="1670071954716" duration="2652000" />
+      <workItem from="1670075735258" duration="4452000" />
+      <workItem from="1670080239152" duration="596000" />
+      <workItem from="1670156386731" duration="4328000" />
+      <workItem from="1670160935442" duration="2285000" />
+      <workItem from="1670163260457" duration="3323000" />
+      <workItem from="1670235357447" duration="4380000" />
+      <workItem from="1670242716723" duration="3805000" />
+      <workItem from="1670248669385" duration="13800000" />
+      <workItem from="1670267132145" duration="5814000" />
+      <workItem from="1670309538062" duration="760000" />
+      <workItem from="1670310637004" duration="1698000" />
+      <workItem from="1670314669051" duration="1234000" />
+      <workItem from="1670316240799" duration="1986000" />
+      <workItem from="1670337908213" duration="6916000" />
+      <workItem from="1670358765206" duration="2307000" />
+      <workItem from="1670372031759" duration="1530000" />
+      <workItem from="1670406635970" duration="1107000" />
+      <workItem from="1670424693357" duration="4847000" />
+      <workItem from="1670439273324" duration="4261000" />
+      <workItem from="1670444485317" duration="1275000" />
+      <workItem from="1670486503724" duration="1823000" />
+      <workItem from="1670696445450" duration="9000" />
+      <workItem from="1670696572149" duration="35000" />
+      <workItem from="1670696633715" duration="27000" />
+      <workItem from="1670696785966" duration="108000" />
+      <workItem from="1670696954342" duration="67000" />
+      <workItem from="1670697058322" duration="31000" />
+      <workItem from="1670700075440" duration="8255000" />
+      <workItem from="1670709284442" duration="1545000" />
+      <workItem from="1670711074461" duration="1185000" />
+      <workItem from="1670716615661" duration="3711000" />
+      <workItem from="1670752117840" duration="3327000" />
+      <workItem from="1670756196966" duration="4560000" />
+      <workItem from="1670837051078" duration="24980000" />
+      <workItem from="1670874339714" duration="644000" />
+      <workItem from="1670945187138" duration="115000" />
+      <workItem from="1671091150470" duration="2105000" />
+      <workItem from="1671359581936" duration="11334000" />
+      <workItem from="1671445367752" duration="26106000" />
+      <workItem from="1671494133545" duration="453000" />
+      <workItem from="1671545798236" duration="94000" />
+      <workItem from="1671545996263" duration="91000" />
+      <workItem from="1671812464112" duration="11493000" />
+      <workItem from="1671832750288" duration="6761000" />
+      <workItem from="1671887262269" duration="5595000" />
+      <workItem from="1672683195515" duration="681000" />
+      <workItem from="1672915856299" duration="441000" />
+      <workItem from="1673339371381" duration="1700000" />
+      <workItem from="1673344309938" duration="5932000" />
+      <workItem from="1673359407826" duration="2115000" />
+      <workItem from="1673372703804" duration="2175000" />
+      <workItem from="1673480283390" duration="6518000" />
+      <workItem from="1673487380387" duration="1430000" />
+      <workItem from="1673861824273" duration="6613000" />
+      <workItem from="1673987553841" duration="3928000" />
+      <workItem from="1674036447360" duration="1799000" />
+      <workItem from="1674108488107" duration="1227000" />
+      <workItem from="1675439529323" duration="120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/proiectmip/EmployeeController.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/proiectmip/CartController.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/proiectmip/EmployeeController.java</url>
+          <line>338</line>
+          <properties class="com.example.proiectmip.EmployeeController" method="ChangeStatus">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

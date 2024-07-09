@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiectmip.EmployeeController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <top>
+            <HBox prefHeight="73.0" prefWidth="600.0" style="-fx-background-color: #ec1313;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="73.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../logo.png" />
+                     </image>
+                  </ImageView>
+                  <Separator opacity="0.0" orientation="VERTICAL" prefHeight="200.0" />
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="txtsearchBar" layoutX="14.0" layoutY="24.0" onAction="#SearchProduct" promptText="Search..." styleClass="search-field" stylesheets="@../../../../java/com/example/proiectmip/style.css" />
+                        <ImageView fitHeight="23.0" fitWidth="30.0" layoutX="163.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../searchIcon.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children></HBox>
+         </top>
+         <left>
+            <VBox prefHeight="327.0" prefWidth="140.0" style="-fx-background-color: #808080;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnProfile" mnemonicParsing="false" onMouseClicked="#ViewProfile" prefHeight="57.0" prefWidth="140.0" style="-fx-background-color: #808080;" text="Profile" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../profile.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="12.0" />
+                     </font></Button>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <left>
+                  <TabPane fx:id="tab" prefHeight="327.0" prefWidth="483.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                    <tabs>
+                      <Tab fx:id="tabViewProducts" style="-fx-background-color: #F8F8FF;" text="ViewProducts">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TableView fx:id="products" prefHeight="297.0" prefWidth="484.0" style="-fx-background-color: #DCDCDC;">
+                                      <columns>
+                                        <TableColumn fx:id="columnName" prefWidth="102.00003051757812" text="Model" />
+                                        <TableColumn fx:id="columnSize" prefWidth="77.3333740234375" text="Size" />
+                                          <TableColumn fx:id="columnPrice" prefWidth="59.33331298828125" text="Price" />
+                                          <TableColumn fx:id="columnBrand" prefWidth="74.0" text="Brand" />
+                                          <TableColumn fx:id="columnType" prefWidth="82.66668701171875" text="Type" />
+                                          <TableColumn fx:id="columnDelete" prefWidth="86.666748046875" text="DELETE" />
+                                      </columns>
+                                    </TableView>
+                                 </children></AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab fx:id="tabAddProduct" style="-fx-background-color: #F8F8FF;" text="AddProduct">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #DCDCDC;">
+                                 <children>
+                                    <TextField fx:id="txtModel" layoutX="21.0" layoutY="48.0" prefHeight="25.0" prefWidth="187.0" />
+                                    <TextField fx:id="txtPrice" layoutX="22.0" layoutY="92.0" prefHeight="25.0" prefWidth="187.0" />
+                                    <TextField fx:id="txtSize" layoutX="21.0" layoutY="136.0" prefHeight="25.0" prefWidth="187.0" />
+                                    <Label layoutX="16.0" layoutY="30.0" text=" Model:" />
+                                    <Label layoutX="20.0" layoutY="74.0" text="Price:" />
+                                    <Label layoutX="22.0" layoutY="118.0" text="Size:" />
+                                    <TextArea fx:id="txtDescription" layoutX="21.0" layoutY="182.0" prefHeight="86.0" prefWidth="187.0" />
+                                    <Label layoutX="22.0" layoutY="165.0" text="Description:" />
+                                    <ComboBox fx:id="comboBoxType" layoutX="242.0" layoutY="48.0" prefHeight="25.0" prefWidth="173.0" promptText="Type" />
+                                    <ComboBox fx:id="comboBoxBrand" layoutX="242.0" layoutY="92.0" prefHeight="25.0" prefWidth="173.0" promptText="Brand" />
+                                    <TextField fx:id="txtPath" layoutX="242.0" layoutY="136.0" prefHeight="25.0" prefWidth="174.0" promptText="PathToImage" />
+                                    <Button fx:id="btnAdd" layoutX="270.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#InsertProduct" prefHeight="44.0" prefWidth="117.0" text="ADD" />
+                                 </children></AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab fx:id="tabModifyProduct" style="-fx-background-color: #F8F8FF;" text="ModifyProduct">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #DCDCDC;">
+                                 <children>
+                                    <TextField fx:id="txtModelUpdate" layoutX="21.0" layoutY="48.0" prefHeight="25.0" prefWidth="187.0" />
+                                    <TextField fx:id="txtPriceUpdate" layoutX="22.0" layoutY="92.0" prefHeight="25.0" prefWidth="187.0" />
+                                    <TextField fx:id="txtSizeUpdate" layoutX="21.0" layoutY="136.0" prefHeight="25.0" prefWidth="187.0" />
+                                    <Label layoutX="16.0" layoutY="30.0" text=" Model:" />
+                                    <Label layoutX="20.0" layoutY="74.0" text="Price:" />
+                                    <Label layoutX="22.0" layoutY="118.0" text="Size:" />
+                                    <TextArea fx:id="txtDescriptionUpdate" layoutX="21.0" layoutY="182.0" prefHeight="86.0" prefWidth="187.0" />
+                                    <Label layoutX="22.0" layoutY="165.0" text="Description:" />
+                                    <ComboBox fx:id="comboBoxTypeUpdate" layoutX="242.0" layoutY="48.0" prefHeight="25.0" prefWidth="173.0" promptText="Type" />
+                                    <ComboBox fx:id="comboBoxBrandUpdate" layoutX="242.0" layoutY="92.0" prefHeight="25.0" prefWidth="173.0" promptText="Brand" />
+                                    <TextField fx:id="txtPathUpdate" layoutX="242.0" layoutY="136.0" prefHeight="25.0" prefWidth="174.0" promptText="PathToImage" />
+                                    <Button fx:id="btnModify" layoutX="255.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#UpdateProduct" prefHeight="44.0" prefWidth="148.0" text="MODIFY" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab fx:id="tabViewOrders" style="-fx-background-color: #F8F8FF;" text="ViewOrders">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TableView fx:id="orders" prefHeight="297.0" prefWidth="484.0" style="-fx-background-color: #DCDCDC;">
+                                       <columns>
+                                          <TableColumn fx:id="columnDateIn" prefWidth="97.99996948242188" text="DateIn" />
+                                          <TableColumn fx:id="columnDateOut" prefWidth="92.0" text="DateOut" />
+                                          <TableColumn fx:id="columnStatus" prefWidth="84.0" text="Status" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab fx:id="tabModifyOrder" style="-fx-background-color: #F8F8FF;" text="ChangeStatus">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <ComboBox fx:id="comboBoxStatus" layoutX="45.0" layoutY="40.0" prefWidth="150.0" promptText="Change Status" />
+                                    <Button fx:id="btnUpdateStatus" layoutX="45.0" layoutY="80.0" mnemonicParsing="false" onMouseClicked="#ChangeStatus" prefHeight="44.0" prefWidth="149.0" text="UPDATE" />
+                                 </children></AnchorPane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </left>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

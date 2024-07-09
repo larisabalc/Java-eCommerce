@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DCDCDC;" stylesheets="@lblEmployeeUser.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiectmip.EmployeeUserController">
+   <children>
+      <Button fx:id="btnEmployee" layoutX="196.0" layoutY="164.0" mnemonicParsing="false" onMouseClicked="#pickedEmployee" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: #696969; -fx-background-radius: 500;" text="EMPLOYEE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnUser" layoutX="300.0" layoutY="164.0" mnemonicParsing="false" onMouseClicked="#pickedUser" prefHeight="37.0" prefWidth="90.0" style="-fx-background-color: #696969; -fx-background-radius: 500;" text="USER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnQuit" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#Quit" style="-fx-background-color: #DCDCDC;" text="×">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="116.0" layoutY="142.0" stylesheets="@lblEmployeeUser.css" text="Are you registering as an Employee or User?" textFill="#0d0d0d">
+         <styleClass>
+            <String fx:value="content" />
+            <String fx:value="left" />
+            <String fx:value="line" />
+            <String fx:value="right" />
+         </styleClass>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+         </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../nike.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="162.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../jordanLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../adidas.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

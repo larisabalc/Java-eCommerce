@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiectmip.SignupUserController">
+   <children>
+      <TextField fx:id="txtSignUpLastName" accessibleText="lastName" layoutX="138.0" layoutY="70.0" style="-fx-background-color: #F8F8FF; -fx-background-radius: 500;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txtSignUpFirstName" layoutX="292.0" layoutY="70.0" style="-fx-background-color: #F8F8FF; -fx-background-radius: 500;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txtSignUpEmail" layoutX="179.0" layoutY="103.0" prefHeight="25.0" prefWidth="261.0" style="-fx-background-color: #F8F8FF; -fx-background-radius: 500;" />
+      <PasswordField fx:id="txtSignUpPassword" layoutX="138.0" layoutY="154.0" style="-fx-background-color: #F8F8FF; -fx-background-radius: 500;" />
+      <Button fx:id="btnSignUpUser" layoutX="201.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#InsertUser" prefHeight="39.0" prefWidth="192.0" style="-fx-background-color: #696969; -fx-background-radius: 500;" text="SIGN UP">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="140.0" layoutY="48.0" text="Last Name:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="292.0" layoutY="48.0" text="First Name: ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="138.0" layoutY="107.0" text="email:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="139.0" layoutY="191.0" text="birthdate:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="138.0" layoutY="137.0" text="password:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Hyperlink fx:id="linkGoToUser" layoutX="171.0" layoutY="259.0" onMouseClicked="#GoToLogginUser" prefHeight="24.0" prefWidth="251.0" text="Do you already have an account? Logg in!">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Hyperlink>
+      <Button fx:id="btnBackSignUp" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#BackSignUp" prefHeight="25.0" prefWidth="31.0" style="-fx-background-color: #DCDCDC;" text="←">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Button>
+      <DatePicker fx:id="pickDate" layoutX="199.0" layoutY="187.0" onAction="#SelectDate" prefHeight="25.0" prefWidth="242.0" />
+      <PasswordField fx:id="txtConfirmPassword" layoutX="292.0" layoutY="154.0" style="-fx-background-color: #F8F8FF; -fx-background-radius: 500;" />
+      <Label layoutX="292.0" layoutY="137.0" text="confirm password:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
